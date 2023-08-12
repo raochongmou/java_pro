@@ -1,0 +1,35 @@
+2023-03-19 17:34:11.380 [main] INFO  com.project.etp.hrm.HrmApplication - Starting HrmApplication on SD-20190630MDLX with PID 4624 (F:\javaProjects\liu-huayi-hd\target\classes started by Administrator in F:\javaProjects\liu-huayi-hd)
+2023-03-19 17:34:11.389 [main] INFO  com.project.etp.hrm.HrmApplication - No active profile set, falling back to default profiles: default
+2023-03-19 17:34:13.615 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2023-03-19 17:34:13.725 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-03-19 17:34:13.726 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2023-03-19 17:34:13.727 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2023-03-19 17:34:13.727 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-03-19 17:34:13.728 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2023-03-19 17:34:13.729 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-03-19 17:34:13.729 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-03-19 17:34:13.729 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource class path resource [application.properties] [org.springframework.core.io.support.ResourcePropertySource] to EncryptableMapPropertySourceWrapper
+2023-03-19 17:34:13.833 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-03-19 17:34:14.322 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-03-19 17:34:14.324 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-03-19 17:34:14.946 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 10010 (http)
+2023-03-19 17:34:15.010 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10010"]
+2023-03-19 17:34:15.011 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-19 17:34:15.011 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2023-03-19 17:34:15.259 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/huayi-hrm] - Initializing Spring embedded WebApplicationContext
+2023-03-19 17:34:15.259 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3524 ms
+2023-03-19 17:34:15.746 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2023-03-19 17:34:16.065 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2023-03-19 17:34:16.069 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2023-03-19 17:34:16.069 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2023-03-19 17:34:16.070 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2023-03-19 17:34:16.070 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2023-03-19 17:34:16.071 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2023-03-19 17:34:16.072 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2023-03-19 17:34:16.085 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2023-03-19 17:34:18.044 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-03-19 17:34:18.058 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-03-19 17:34:18.117 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-19 17:34:18.217 [Druid-ConnectionPool-Create-2122225197] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
